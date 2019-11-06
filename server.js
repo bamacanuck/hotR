@@ -6,7 +6,7 @@ const app = express()
 var PORT = process.env.PORT || 8080;
 
 app.get('/', function (req, res) {
-  res.send('Hello World - testing for SRS!')
+  res.send('testing success')
 })
 
 
@@ -26,4 +26,5 @@ app.use(function (req, res) {
 
 app.listen(PORT, function () {
     console.log("listening on port: " + PORT);
+    console.log("That's right, jerk! It's runnin'!!!");
 });
