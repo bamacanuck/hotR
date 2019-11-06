@@ -4,10 +4,8 @@ const express = require('express')
 const app = express()
  
 app.get('/', function (req, res) {
-  res.send('Hello World - testing for SRS!!!')
+  res.send('Hello World - testing for SRS!')
 })
- 
-app.listen(3000)
 
 
 // =============================================
@@ -23,3 +21,5 @@ app.use(function (req, res) {
   res.write('you posted:\n')
   res.end(JSON.stringify(req.body, null, 2))
 })
+
+app.listen(3000)
