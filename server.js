@@ -1,9 +1,8 @@
-const bodyParser = require('body-parser')
-const express = require('express')
-var path
+const bodyParser = require('body-parser');
+const express = require('express');
+var path = require ('path');
 
-const app = express()
-
+const app = express();
 var PORT = process.env.PORT || 8080;
 
 app.get('/', function (req, res) {
