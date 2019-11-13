@@ -26,5 +26,5 @@ app.use(function (req, res) {
 
 app.listen(PORT, function () {
     console.log("listening on port: " + PORT);
-    console.log("That's right, jerk! It's runnin'!!!");
+    // console.log("That's right, jerk! It's runnin'!!!");
 });
