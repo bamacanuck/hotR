@@ -6,3 +6,5 @@ var tableArray = [
         phoneNumber: "999-555-1212"
     }
 ];
+
+module.exports = tableArray;
