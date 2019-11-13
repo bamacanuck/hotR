@@ -6,3 +6,5 @@ var waitingArray = [
         phoneNumber: "999-444-5555"
     }
 ];
+
+module.exports = waitingArray;
