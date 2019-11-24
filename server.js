@@ -24,6 +24,8 @@ app.use(function (req, res) {
   res.end(JSON.stringify(req.body, null, 2))
 })
 
+require('./app/routing/html-routes')(app);
+
 app.listen(PORT, function () {
     console.log("listening on port: " + PORT);
     // console.log("That's right, jerk! It's runnin'!!!");
