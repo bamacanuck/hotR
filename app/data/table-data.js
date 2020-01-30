@@ -1,7 +1,7 @@
 var tableArray = [
     {
         customerName: "Bill",
-        customerEmail: "bill@billco.com",
+        customerEmail: "bsmith@comco.com",
         customerID: "bill05",
         phoneNumber: "999-555-1212"
     }
