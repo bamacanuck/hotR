@@ -30,6 +30,5 @@ app.use(function (req, res) {
 require('./app/routing/html-routes')(app);
 
 app.listen(PORT, function () {
-    console.log("listening on port: " + PORT);
-    // console.log("That's right, jerk! It's runnin'!!!");
+    console.log("app \"listening\" on port: " + PORT);
 });
